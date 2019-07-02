@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class DBConnDemo {
 	
-	private String url = "jdbc:oracle:thin:@192.168.10.10:1521:orcl"; // 数据库url
+	private String url = "jdbc:oracle:thin:@192.168.10.10:1521:orcl"; // 数据库的URL
 	
 	Connection con; //声明Connection对象
 	
@@ -54,11 +54,11 @@ public class DBConnDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String user = "hys";
-		String pwd = "hys";
-		String db_type = "oracle";
-		String ip = "192.168.10.10";
-		String db_name = "orcl";
+		String user = "hys"; // 登陆数据库的用户名
+		String pwd = "hys"; // 登陆数据库的密码
+		String db_type = "oracle"; // 要登陆的数据库的类型
+		String ip = "192.168.10.10"; // 数据库的IP地址
+		String db_name = "orcl"; // 数据库名称 实例名
 		
 		String par1 = "adm";
 		String par2 = "adm";
