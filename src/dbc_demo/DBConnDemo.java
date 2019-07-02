@@ -60,8 +60,8 @@ public class DBConnDemo {
 		String ip = "192.168.10.10"; // 数据库的IP地址
 		String db_name = "orcl"; // 数据库名称 实例名
 		
-		String par1 = "adm";
-		String par2 = "adm";
+		String par1 = "adm"; // 要插入数据库的第一个变量
+		String par2 = "adm"; // 要插入数据库的第二个变量
 		
 		DBConnDemo dcd = new DBConnDemo();
 		Connection con1 = dcd.getConnection(db_type, ip, db_name, user, pwd); // 获得数据库连接
